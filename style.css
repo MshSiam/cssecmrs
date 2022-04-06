@@ -414,3 +414,122 @@ ul li a:hover::after {
   font-weight: 700;
   font-size: 16px;
 }
+
+/* newsletter section */
+#newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  background-image: url("./img/banner/b2.jpg");
+  background-position: 20% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ccd4f8;
+}
+#newsletter p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ccd4f8;
+}
+
+#newsletter p span {
+  color: #ff2893;
+}
+#newsletter input {
+  height: 3rem;
+  padding: 0 1em;
+  font-size: 12px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter .form {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#newsletter button {
+  background: rgb(213, 1, 255);
+  color: #fff;
+}
+
+/* ----footer -------- */
+
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+#footer .col a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+#footer .col a:hover {
+  color: rgb(0, 89, 255);
+}
+
+#footer .logo {
+  margin-bottom: 30px;
+}
+
+#footer h4 {
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+#footer p {
+  font-size: 12px;
+  margin: 0 0 8px 0;
+}
+#footer .follow {
+  margin-top: 20px;
+}
+#footer .follow i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.4s;
+}
+#footer .follow i:hover {
+  color: #0051ff;
+}
+
+#footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+#footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+#footer .copyright {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
