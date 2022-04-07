@@ -640,6 +640,38 @@ ul li a:hover::after {
   z-index: -1;
 }
 
+/* -----------------About us page--------------- */
+#blog-header.about-header {
+  background-image: url("./img/about/banner.png");
+}
+
+#blog-header.about-header p {
+  color: #c1c4cf;
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+#about-head div {
+  padding-left: 40px;
+}
+
+#about-app {
+  text-align: center;
+}
+
+#about-app video {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 0;
+}
+
 /* -----------Media Query Starts--------- */
 @media (max-width: 799px) {
   .section-p1 {
@@ -801,6 +833,34 @@ ul li a:hover::after {
 
   #blog .blog-details {
     width: 100%;
+  }
+
+  /* about us page */
+  #about-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding-left: 0px;
+  }
+
+  #features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #about-app video {
+    width: 100%;
+    margin: 20px auto 0 0;
   }
 }
 /* -----------Media Query Ends--------- */
