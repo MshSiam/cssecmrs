@@ -672,6 +672,135 @@ ul li a:hover::after {
   margin: 30px auto 0 0;
 }
 
+/* ----------------------contact Us Page------------- */
+
+#blog-header.contact-header {
+  background-image: url("./img/contact/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg");
+  background-position: 20% 30%;
+}
+
+#blog-header.contact-header h2 {
+  color: rgb(85, 215, 255);
+  align-items: center;
+  justify-content: space-between;
+}
+
+#blog-header.contact-header p {
+  color: rgb(85, 110, 255);
+}
+
+#contact-details {
+  display: flex;
+}
+
+#contact-details .details {
+  width: 50%;
+}
+
+#contact-details .details span {
+  font-size: 12px;
+}
+
+#contact-details .details h2 {
+  font-size: 22px;
+  line-height: 25px;
+  padding: 20px 0;
+}
+
+#contact-details .details h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+#contact-details .details li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+#contact-details .details i {
+  font-size: 14px;
+  padding: 22px;
+}
+
+#contact-details .details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#contact-details .map {
+  width: 50%;
+  height: 400px;
+}
+#contact-details .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* form */
+
+#form-details form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-details form span,
+h3 {
+  text-align: center;
+  object-fit: 10px;
+  margin-bottom: 20px;
+}
+
+#form-details form input,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #d1e8f2;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+#form-details form button {
+  background-color: #465b52;
+  color: #ccd4f8;
+  border: 1px solid #465b52;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+#form-details form button:hover {
+  background-color: #ccd4f8;
+  color: #465b52;
+}
+
+#form-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.people div {
+  padding-bottom: 25px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.people div img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  line-height: 25px;
+}
+
+.people div p span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 /* -----------Media Query Starts--------- */
 @media (max-width: 799px) {
   .section-p1 {
@@ -761,6 +890,15 @@ ul li a:hover::after {
   #newsletter .form {
     width: 70%;
   }
+
+  /* contact */
+  #form-details {
+    padding: 40px;
+  }
+
+  #form-details form {
+    width: 50%;
+  }
 }
 
 /* mobile screen  */
@@ -773,7 +911,7 @@ ul li a:hover::after {
     padding: 20px;
   }
   #navbar {
-    padding: 10px 30px;
+    padding: 70px 10px;
   }
   #hero {
     padding: 0 18px;
@@ -861,6 +999,32 @@ ul li a:hover::after {
   #about-app video {
     width: 100%;
     margin: 20px auto 0 0;
+  }
+
+  /* contact page */
+  #contact-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #contact-details .map {
+    width: 100%;
+  }
+
+  #form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #form-details form {
+    width: 100%;
+    margin-bottom: 80px;
   }
 }
 /* -----------Media Query Ends--------- */
