@@ -940,6 +940,13 @@ textarea {
     width: 100%;
   }
 
+  #product1 .pro-container {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
   /* product page */
   #page-header {
     height: 70vh;
